@@ -67,11 +67,15 @@ h1, h2, h3, h4, h5 {
 body {
   width: 2550px;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
+  position: fixed;
+  top: 0;
   width: 90%;
-  margin: 50px auto 0px auto;
+  padding: 50px 0;
+  background-color: cornflowerblue;
 }
 
 nav {
@@ -83,6 +87,7 @@ nav {
 nav a {
   display: inline-block;
   width: 16%;
+  
   color: lightgray;
   text-decoration: none;
 }
@@ -95,7 +100,7 @@ nav a {
 
 .top-section {
   width: 90%;
-  margin: 150px auto 250px auto;
+  margin: 350px auto 250px auto;
 }
 
 .title-div {
