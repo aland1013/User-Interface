@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-  width: 2550px;
+  width: 650px;
   margin: auto;
   font-family: 'Roboto', sans-serif;
 }
@@ -74,7 +74,8 @@ header {
   position: fixed;
   top: 0;
   width: 90%;
-  padding: 50px 0;
+  margin: auto;
+  padding: 20px 0;
   background-color: cornflowerblue;
 }
 
@@ -86,10 +87,10 @@ nav {
 
 nav a {
   display: inline-block;
-  width: 16%;
-  
+  width: 15%;
   color: lightgray;
   text-decoration: none;
+  font-size: 60%;
 }
 
 .logo {
@@ -100,7 +101,7 @@ nav a {
 
 .top-section {
   width: 90%;
-  margin: 350px auto 250px auto;
+  margin: 100px auto 50px auto;
 }
 
 .title-div {
@@ -113,15 +114,15 @@ nav a {
 .top-img {
   display: inline-block;
   width: 50%;
-  padding-left: 80px;
+  padding-left: 25px;
   vertical-align: middle;
 }
 
 button {
-  font-size: 53px;
-  width: 45%;
-  padding: 15px;
-  margin: 50px auto 0 auto;
+  /* font-size: 53px; */
+  width: 30%;
+  padding: 5px;
+  margin: auto;
   border: 1px solid black;
 }
 
@@ -134,7 +135,7 @@ button {
 
 .middle-box {
   display: inline-block;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 .top-left {
@@ -150,29 +151,29 @@ button {
 }
 
 .bottom {
-  width: 33%;
+  width: 32%;
 }
 
 .contact-section {
   width: 90%;
   margin: auto;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 footer {
   text-align: center;
-  padding: 100px 0 100px 0;
+  padding: 20px 0 100px 0;
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 300%;
 }
 
 h2 {
-  font-size: 300%;
-  margin-bottom: 30px;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
-p {
-  font-size: 260%;
+p, footer {
+  font-size: 10px;
 }
